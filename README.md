@@ -230,6 +230,6 @@ Branching is great, good for collaboration or new departures; but it comes with 
 
 [bitbucket]: http://www.bitbucket.com
 [github]: http://www.github.com
-[SourceTree]: http://www.google.com
+[SourceTree]: https://www.sourcetreeapp.com/
 [UFO]: http://www.unifiedfontobject.org
-[JeremieHornus]: http://www.google.com
+[JeremieHornus]: https://twitter.com/JeremieHornus/status/612370888785285120/
