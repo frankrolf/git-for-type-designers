@@ -210,7 +210,7 @@ Finally, there might be a folder `test`, of which the contents are not important
 
 The `.gitignore` file will be visibile as a new file the next time `git status` is run. One can decide if it is useful to have it be part of the repository or not – in this case, the `.gitignore` file itself can also be ignored.
 
-### The `--amend` option
+### The `--amend` flag
 Sometimes, mistakes happen. Typo in the commit message. Forgotten file.
 
 ```bash
