@@ -9,8 +9,11 @@ Some aspects of Git make is similar to a backup system like TimeMachine, but wit
 
 Any creative job on a computer could make use of version control, but type design especially is an ideal candidate for version control; since type designers work with [UFO][] files.
 
-The [UFO file format][ufo] is perfect for version control, since it is text-based. A UFO is basically just a folder with many little XML-files in it. A UFO file could theoretically be created and modified in a text editor. This opens the field of digital type design for version control tools normally used only by software developers.
+The [UFO file format][ufo] is perfect for version control, since it is text-based. A UFO is basically just a folder with many little XML-files in it. A UFO file could theoretically be created and modified in a text editor. This opens the field of digital type design for version control tools normally used only by software developers.  
 
+The UFO format is the native file format for the [Robofont][robofont] font editor, but (of course) version control can be used with any other file format as well:  
+[Glyphs][glyphs] uses its own, text-based `.glyphs` file format, which has the same human-readable qualities as a UFO file, and therefore can be compared (_diffed_) from one revision to the other.  
+[FontLab Studio][fontlab] creates binary `.vfb` files, which only FontLab can understand. Those files can be stored in a Git repository for the purpose of creating backup data, but the capability for _diffing_ is lost.
 
 
 #### Glossary
@@ -233,3 +236,6 @@ Branching is great, good for collaboration or new departures; but it comes with 
 [SourceTree]: https://www.sourcetreeapp.com/
 [UFO]: http://www.unifiedfontobject.org
 [JeremieHornus]: https://twitter.com/JeremieHornus/status/612370888785285120/
+[Robofont]: http://robofont.com
+[Glyphs]: http://glyphsapp.com
+[FontLab]: http://old.fontlab.com/font-editor/fontlab-studio/
